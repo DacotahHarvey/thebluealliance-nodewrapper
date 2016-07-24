@@ -1,0 +1,17 @@
+{
+  "name": "thebluealliance-nodejs-wrapper",
+  "description": "A robust wrapper for The Blue Alliance API V2.0",
+  "version": "1.0",
+  "author": {
+    "name": "Dacotah Harvey",
+    "email": "dacotahj.harvey@gmail.com"
+  },
+  "contributors": [
+    "Dacotah Harvey dacotahj.harvey@gmail.com",
+    "John-Curtis McDonald johncurtismcdonald@gmail.com"
+  ],
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "main": "NODE_ENV=production node server.js"
+}
