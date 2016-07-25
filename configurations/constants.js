@@ -10,7 +10,7 @@
 var api_version = 'v2';
 var base_url    = "http://thebluealliance.com/api/" + api_version;
 var headers     = {
-    "X-TBA-App-Id": "dacotah_harvey:api_wrapper:1"
+    "X-TBA-App-Id": "teamname/firstname_lastname:project_name:project_version"
 };
 
 // Export the constants that we have made available
