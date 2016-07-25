@@ -1,31 +1,33 @@
 {
-  "name": "thebluealliance-api-wrapper",
-  "version": "1.0",
+  "name": "thebluealliance-wrapper",
+  "license": "MIT",
   "description": "A robust wrapper for The Blue Alliance API V2.0",
-  "main": "wrapper.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DacotahHarvey/thebluealliance-nodewrapper"
-  },
-  "keywords": [
-    "FRC",
-    "thebluealliance",
-    "thebluealliance-api",
-    "api-wrapper"
-  ],
+  "version": "1.0.0",
   "author": {
     "name": "Dacotah Harvey",
     "email": "dacotahj.harvey@gmail.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DacotahHarvey/thebluealliance-nodewrapper/issues"
-  }
   "contributors": [
     "Dacotah Harvey dacotahj.harvey@gmail.com",
     "John-Curtis McDonald johncurtismcdonald@gmail.com"
   ],
   "dependencies": {
     "request": "^2.74.0"
-  }
+  },
+  "devDependencies": {
+    "request": "^2.74.0"
+  },
+  "main": "NODE_ENV=production node wrapper.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dacotahharvey/thebluealliance-nodewrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DacotahHarvey/thebluealliance-nodewrapper/issues"
+  },
+  "keywords": [
+      "FRC",
+      "thebluealliance",
+      "api-wrapper"
+  ]
 }
