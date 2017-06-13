@@ -1,6 +1,8 @@
 # thebluealliance-nodewrapper
 A NodeJS wrapper that assists in the use of the API provided by http://www.thebluealliance.com
 
+### NOTE: This package is deprecated. It will not be updated to support the new V3 API and support will end January 1st 2018
+
 # Setup
 
 open a new terminal window and navigate to your project root. Run the following command
